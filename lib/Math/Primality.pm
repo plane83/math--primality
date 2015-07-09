@@ -4,6 +4,9 @@ use strict;
 use Data::Dumper;
 use Math::GMPz qw/:mpz/;
 use base 'Exporter';
+#this is a test
+print "test";
+
 use Carp qw/croak/;
 my %small_primes = (
     2   => 2,
